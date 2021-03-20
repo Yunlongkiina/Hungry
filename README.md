@@ -1,4 +1,7 @@
 # FoodDelivery
+
+test liuDev
+
 <p>
   <img src="https://img.shields.io/badge/React-16.10.+-lightblue.svg">
   <img src="https://img.shields.io/badge/Redux-4.0.+-purple.svg">
@@ -24,12 +27,13 @@ Application consists of following parts:
 
 ## Live demo
 
-* To view storefront, [click here](https://store.food-delivery.mishast.com)
-* To view Backoffice, [click here](https://admin.food-delivery.mishast.com)
+- To view storefront, [click here](https://store.food-delivery.mishast.com)
+- To view Backoffice, [click here](https://admin.food-delivery.mishast.com)
 
 ## Features
 
 Storefront:
+
 1. Server-side rendering
 2. Responsive design
 3. Add to cart
@@ -46,7 +50,7 @@ Dashboard:
 5. View order (**Work in progress**)
 6. Products list
 7. View product (**Work in progress**)
-6. Add / edit product (**Work in progress**)
+8. Add / edit product (**Work in progress**)
 
 ## Dependencies
 
@@ -63,50 +67,74 @@ Dashboard:
 11. [Express](https://expressjs.com/) - web framework
 
 ## Setup
+
 ### Prerequisites
-* Install Node.js >= 10
-* Install MongoDB
+
+- Install Node.js >= 10
+- Install MongoDB
+
 ### Seed database
-* Go to 'backends/express'
-* Install 'dependencies'
+
+- Go to 'backends/express'
+- Install 'dependencies'
+
 ```
 yarn install
 ```
-* Seed database
+
+- Seed database
+
 ```
 yarn run seed
 ```
+
 ### Start backend
-* Go to 'backends/express'
-* Install dependencies
+
+- Go to 'backends/express'
+- Install dependencies
+
 ```
 yarn install
 ```
-* Start backend
+
+- Start backend
+
 ```
 yarn run start
 ```
+
 ### Start storefront
-* Go to 'web/store/react'
-* Install dependencies
+
+- Go to 'web/store/react'
+- Install dependencies
+
 ```
 yarn install
 ```
-* Buld storefront
+
+- Buld storefront
+
 ```
 yarn run build:dev
 ```
-* Start storefront
+
+- Start storefront
+
 ```
 yarn run start
 ```
+
 ### Start Backoffice
-* Go to 'web/admin/react'
-* Install dependencies
+
+- Go to 'web/admin/react'
+- Install dependencies
+
 ```
 yarn install
 ```
-* Start Backoffice
+
+- Start Backoffice
+
 ```
 yarn run start
 ```
