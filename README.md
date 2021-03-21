@@ -1,6 +1,6 @@
 # FoodDelivery
 
-test liuDev
+test
 
 <p>
   <img src="https://img.shields.io/badge/React-16.10.+-lightblue.svg">
