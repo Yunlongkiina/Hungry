@@ -1,6 +1,8 @@
 import express from 'express';
-import morgan from 'morgan';
-import bodyParser from 'body-parser';
+// import morgan from 'morgan';
+const morgan = require('morgan');
+// const bodyParser = require('body-parser');
+// import bodyParser from 'body-parser';
 import cors from 'cors';
 import helmet from 'helmet';
 import cookieParser from 'cookie-parser';
@@ -18,8 +20,8 @@ if (config.env === 'development') {
 	app.use(morgan('dev'));
 }
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(cors());
 app.use(helmet());

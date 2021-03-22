@@ -5,8 +5,10 @@ import config from '../config';
 let db = null;
 
 const connect = callback => {
+
 	const mongoUri = mongodbUri.parse(config.mongoUrl);
-	mongoClient.connect(config.mongoUrl, (err, client) => {
+
+	mongoClient.connect(config.mongoUrl,{ useUnifiedTopology: true },(err, client) => {
 		if (err) {
 			console.log("Can't connect to MongoDB");
 		} else {

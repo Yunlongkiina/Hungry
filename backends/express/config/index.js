@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 import path from 'path';
 
 dotenv.config({});
-
+console.log(process.env.MONGODB_URL);
 let showStacktrace = true;
 
 if ('SHOW_STACKTRACE' in process.env) {
@@ -18,7 +18,7 @@ const config = {
 		host: process.env.HOST || '0.0.0.0',
 		port: process.env.PORT || 2000
 	},
-	mongoUrl: 'mongodb://localhost/foodDelivery',
+	mongoUrl:process.env.MONGODB_URL,
 	jwtSecret: process.env.JWT_SECRET || 'sdfsdfsdf',
 	uploadDir: path.join(__dirname, '../upload'),
 	showStacktrace,
