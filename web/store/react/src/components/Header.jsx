@@ -1,7 +1,7 @@
 import React from 'react';
 import CartIcon from './CartIcon';
 import Logo from "./Logo";
-import HeaderMenu from "./HeaderMenu";
+import SpecialOffer from "./SpecialOffer";
 
 class Header extends React.Component {
 	render() {
@@ -10,7 +10,7 @@ class Header extends React.Component {
 				<div className="container">
 					<header>
 						<Logo />
-						{/* <HeaderMenu /> */}
+						<SpecialOffer />
 						<CartIcon />
 					</header>
 				</div>
