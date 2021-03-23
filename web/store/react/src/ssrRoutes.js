@@ -11,7 +11,8 @@ const SsrRoutes = [
 	{
 		path: '/cart'
 	},
-	{}
+	{
+	}
 ];
 
 export default SsrRoutes;

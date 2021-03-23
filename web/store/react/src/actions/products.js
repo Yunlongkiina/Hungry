@@ -14,7 +14,6 @@ const loadProducts = () => {
 		);
 		if (productsResponse.status === 200) {
 			const products = productsResponse.data;
-			console.log(products);
 			dispatch(receiveProducts(products));
 		}
 	};
