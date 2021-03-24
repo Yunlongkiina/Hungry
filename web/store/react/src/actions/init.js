@@ -31,7 +31,7 @@ const initApp = () => {
 				const cart = cartResponse.data;
 
 				console.log('cart:');
-				console.log(cart);
+				// console.log(cart);
 
 				dispatch(customerActions.setCart(cart));
 			} else {
@@ -45,7 +45,7 @@ const initApp = () => {
 			if (customerResponse.status === 200) {
 				customer = customerResponse.data;
 				console.log('customer:');
-				console.log(customer);
+				// console.log(customer);
 				dispatch(customerActions.setCustomer(customer));
 				const cart = [];
 				console.log('set empty cart');
