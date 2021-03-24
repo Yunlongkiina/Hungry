@@ -9,7 +9,7 @@ const initialState = {
 export default (state = initialState, action) => {
 	switch (action.type) {
 		case types.RECEIVE_PRODUCTS:
-			console.log(JSON.stringify(action));
+			// console.log(JSON.stringify(action));
 
 			return {
 				...state,
