@@ -52,7 +52,7 @@ export const getOrdersList = status => {
 		console.log('get orders');
 		const orders = await agent.getOrdersList(status);
 		console.log('orders:');
-		console.log(orders);
+		// console.log(orders);
 
 		if (orders) {
 			dispatch(receiveOrdersList(status, orders));
@@ -65,7 +65,7 @@ export const getOrder = orderId => {
 		console.log('get order');
 		const order = await agent.getOrder(orderId);
 		console.log('order:');
-		console.log(order);
+		// console.log(order);
 
 		if (order) {
 			dispatch(receiveOrder(order));
@@ -79,7 +79,7 @@ export const getProduct = productId => {
 		console.log('get product');
 		const product = await agent.getProduct(productId);
 		console.log('product:');
-		console.log(product);
+		// console.log(product);
 
 		if (product) {
 			dispatch(receiveProductCompleted(product));
