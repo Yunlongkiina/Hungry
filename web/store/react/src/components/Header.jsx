@@ -2,7 +2,7 @@ import React from 'react';
 import CartIcon from './CartIcon';
 import Logo from "./Logo";
 import SpecialOffer from "./SpecialOffer";
-
+import LoginIcon from "./LoginIcon";
 class Header extends React.Component {
 	render() {
 		return (
@@ -12,6 +12,7 @@ class Header extends React.Component {
 						<Logo />
 						<SpecialOffer />
 						<CartIcon />
+						<LoginIcon />
 					</header>
 				</div>
 			</div>

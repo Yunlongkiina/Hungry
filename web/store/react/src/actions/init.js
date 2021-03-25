@@ -30,7 +30,7 @@ const initApp = () => {
 			if (cartResponse.status === 200) {
 				const cart = cartResponse.data;
 
-				console.log('cart:');
+				// console.log('cart:');
 				// console.log(cart);
 
 				dispatch(customerActions.setCart(cart));
