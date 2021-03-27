@@ -10,7 +10,9 @@ class Header extends React.Component {
 				<div className="container">
 					<header>
 						<Logo />
+						<p>Menu</p>
 						<SpecialOffer />
+						<p>Contact Us</p>
 						<CartIcon />
 						<LoginIcon />
 					</header>
