@@ -1,7 +1,5 @@
 # FoodDelivery
 
-ok fine!
-
 <p>
   <img src="https://img.shields.io/badge/React-16.10.+-lightblue.svg">
   <img src="https://img.shields.io/badge/Redux-4.0.+-purple.svg">
@@ -40,6 +38,9 @@ Storefront:
 4. Delete from cart
 5. Checkout
 6. Session based on localStorage and tokens
+7. Menu item
+8. Special offer item
+9. Sign in and Sign up
 
 Dashboard:
 
