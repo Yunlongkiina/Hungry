@@ -31,7 +31,7 @@ class Header extends React.Component {
 						<div className="contacts">
 							<p>Yunlong</p>
 							<a href="mailto:example@tutorialspark.com">Send an Email </a>
-							<p>To make a booking, call <a href="tel:+13174562564">317-456-2564</a></p>
+							<p><a href="tel:+13174562564">317-456-2564</a></p>
 						</div>
 					</div>
 				</div>
